@@ -61,3 +61,7 @@ id_ed25519*
 /config/*
 !/config/public.json
 !/config/*.example.json
+
+# Reviewed README artwork only; private screenshots stay excluded.
+!/docs/images/
+!/docs/images/pulse-companion-catgirl.png
