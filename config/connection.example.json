@@ -1,0 +1,7 @@
+{
+  "format": "aihaptics-connection",
+  "version": 1,
+  "url": "https://relay.example.com/api/v1",
+  "token": "replace-with-your-relay-token",
+  "certificate": ""
+}

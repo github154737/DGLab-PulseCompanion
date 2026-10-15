@@ -1,0 +1,6 @@
+{
+  "APP_EDITION": "public",
+  "APP_LOGIN_ENABLED": false,
+  "APP_DEVELOPER_TOOLS": false,
+  "VENICE_TEST_ENTRY": true
+}

@@ -1,0 +1,8 @@
+{
+  "host": "relay.example.com",
+  "ssh_user": "root",
+  "ssh_port": 22,
+  "ssh_key": "~/.ssh/your_relay_key",
+  "proxy_host": "",
+  "proxy_port": 0
+}

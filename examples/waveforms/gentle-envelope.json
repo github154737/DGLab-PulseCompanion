@@ -1,0 +1,11 @@
+{
+  "format": "envelope_v1",
+  "id": "gentle_import",
+  "name": "我的渐变",
+  "channels": 1,
+  "frames": [
+    {"duration_ms": 500, "levels": [0.1, 0]},
+    {"duration_ms": 500, "levels": [0.4, 0]},
+    {"duration_ms": 500, "levels": [0.2, 0]}
+  ]
+}

@@ -1,0 +1,3067 @@
+[
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "itoa",
+    "version": "1.0.18",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/itoa",
+    "notices": [
+      "docs/third-party/rust-itoa-1.0.18-LICENSE-APACHE.txt",
+      "docs/third-party/rust-itoa-1.0.18-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "memchr",
+    "version": "2.8.3",
+    "license": "Unlicense OR MIT",
+    "repository": "https://github.com/BurntSushi/memchr",
+    "notices": [
+      "docs/third-party/rust-memchr-2.8.3-COPYING.txt",
+      "docs/third-party/rust-memchr-2.8.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "proc-macro2",
+    "version": "1.0.107",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/proc-macro2",
+    "notices": [
+      "docs/third-party/rust-proc-macro2-1.0.107-LICENSE-APACHE.txt",
+      "docs/third-party/rust-proc-macro2-1.0.107-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "quote",
+    "version": "1.0.47",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/quote",
+    "notices": [
+      "docs/third-party/rust-quote-1.0.47-LICENSE-APACHE.txt",
+      "docs/third-party/rust-quote-1.0.47-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "serde",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "notices": [
+      "docs/third-party/rust-serde-1.0.229-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde-1.0.229-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "serde_core",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "notices": [
+      "docs/third-party/rust-serde_core-1.0.229-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_core-1.0.229-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "serde_derive",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "notices": [
+      "docs/third-party/rust-serde_derive-1.0.229-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_derive-1.0.229-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "serde_json",
+    "version": "1.0.151",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/json",
+    "notices": [
+      "docs/third-party/rust-serde_json-1.0.151-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_json-1.0.151-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "syn",
+    "version": "3.0.6",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/syn",
+    "notices": [
+      "docs/third-party/rust-syn-3.0.6-LICENSE-APACHE.txt",
+      "docs/third-party/rust-syn-3.0.6-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "unicode-ident",
+    "version": "1.0.26",
+    "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+    "repository": "https://github.com/dtolnay/unicode-ident",
+    "notices": [
+      "docs/third-party/rust-unicode-ident-1.0.26-LICENSE-APACHE.txt",
+      "docs/third-party/rust-unicode-ident-1.0.26-LICENSE-MIT.txt",
+      "docs/third-party/rust-unicode-ident-1.0.26-LICENSE-UNICODE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "core",
+    "name": "zmij",
+    "version": "1.0.23",
+    "license": "MIT",
+    "repository": "https://github.com/dtolnay/zmij",
+    "notices": [
+      "docs/third-party/rust-zmij-1.0.23-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "aes",
+    "version": "0.9.3",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/block-ciphers",
+    "notices": [
+      "docs/third-party/rust-aes-0.9.3-LICENSE-APACHE.txt",
+      "docs/third-party/rust-aes-0.9.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "ahash",
+    "version": "0.8.12",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/tkaitchuck/ahash",
+    "notices": [
+      "docs/third-party/rust-ahash-0.8.12-LICENSE-APACHE.txt",
+      "docs/third-party/rust-ahash-0.8.12-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "aho-corasick",
+    "version": "1.1.5",
+    "license": "Unlicense OR MIT",
+    "repository": "https://github.com/BurntSushi/aho-corasick",
+    "notices": [
+      "docs/third-party/rust-aho-corasick-1.1.5-COPYING.txt",
+      "docs/third-party/rust-aho-corasick-1.1.5-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "allocator-api2",
+    "version": "0.2.21",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/zakarumych/allocator-api2",
+    "notices": [
+      "docs/third-party/rust-allocator-api2-0.2.21-LICENSE-APACHE.txt",
+      "docs/third-party/rust-allocator-api2-0.2.21-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "anyhow",
+    "version": "1.0.104",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/anyhow",
+    "notices": [
+      "docs/third-party/rust-anyhow-1.0.104-LICENSE-APACHE.txt",
+      "docs/third-party/rust-anyhow-1.0.104-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "async-stream",
+    "version": "0.3.6",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/async-stream",
+    "notices": [
+      "docs/third-party/rust-async-stream-0.3.6-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "async-stream-impl",
+    "version": "0.3.6",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/async-stream",
+    "notices": [
+      "docs/third-party/rust-async-stream-impl-0.3.6-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "async-trait",
+    "version": "0.1.92",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/async-trait",
+    "notices": [
+      "docs/third-party/rust-async-trait-0.1.92-LICENSE-APACHE.txt",
+      "docs/third-party/rust-async-trait-0.1.92-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "autocfg",
+    "version": "1.5.1",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/cuviper/autocfg",
+    "notices": [
+      "docs/third-party/rust-autocfg-1.5.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-autocfg-1.5.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "bit-set",
+    "version": "0.8.0",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/contain-rs/bit-set",
+    "notices": [
+      "docs/third-party/rust-bit-set-0.8.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-bit-set-0.8.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "bit-vec",
+    "version": "0.8.0",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/contain-rs/bit-vec",
+    "notices": [
+      "docs/third-party/rust-bit-vec-0.8.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-bit-vec-0.8.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "bitflags",
+    "version": "2.13.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/bitflags/bitflags",
+    "notices": [
+      "docs/third-party/rust-bitflags-2.13.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-bitflags-2.13.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "block-buffer",
+    "version": "0.12.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/utils",
+    "notices": [
+      "docs/third-party/rust-block-buffer-0.12.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-block-buffer-0.12.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "block-padding",
+    "version": "0.4.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/utils",
+    "notices": [
+      "docs/third-party/rust-block-padding-0.4.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-block-padding-0.4.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "borrow-or-share",
+    "version": "0.2.4",
+    "license": "MIT-0",
+    "repository": "https://github.com/yescallop/borrow-or-share",
+    "notices": [
+      "docs/third-party/rust-borrow-or-share-0.2.4-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "bumpalo",
+    "version": "3.20.3",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/fitzgen/bumpalo",
+    "notices": [
+      "docs/third-party/rust-bumpalo-3.20.3-LICENSE-APACHE.txt",
+      "docs/third-party/rust-bumpalo-3.20.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "buttplug_core",
+    "version": "11.0.2",
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/buttplugio/buttplug.git",
+    "notices": [
+      "docs/third-party/upstream-buttplug-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "buttplug_server",
+    "version": "12.0.1",
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/buttplugio/buttplug.git",
+    "notices": [
+      "docs/third-party/upstream-buttplug-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "buttplug_server_device_config",
+    "version": "12.0.1",
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/buttplugio/buttplug.git",
+    "notices": [
+      "docs/third-party/upstream-buttplug-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "bytecount",
+    "version": "0.6.9",
+    "license": "Apache-2.0/MIT",
+    "repository": "https://github.com/llogiq/bytecount",
+    "notices": [
+      "docs/third-party/rust-bytecount-0.6.9-LICENSE.Apache2.txt",
+      "docs/third-party/rust-bytecount-0.6.9-LICENSE.MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "byteorder",
+    "version": "1.5.0",
+    "license": "Unlicense OR MIT",
+    "repository": "https://github.com/BurntSushi/byteorder",
+    "notices": [
+      "docs/third-party/rust-byteorder-1.5.0-COPYING.txt",
+      "docs/third-party/rust-byteorder-1.5.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "bytes",
+    "version": "1.12.1",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/bytes",
+    "notices": [
+      "docs/third-party/rust-bytes-1.12.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "cfg-if",
+    "version": "1.0.5",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/cfg-if",
+    "notices": [
+      "docs/third-party/rust-cfg-if-1.0.5-LICENSE-APACHE.txt",
+      "docs/third-party/rust-cfg-if-1.0.5-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "chacha20",
+    "version": "0.10.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/stream-ciphers",
+    "notices": [
+      "docs/third-party/rust-chacha20-0.10.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-chacha20-0.10.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "cipher",
+    "version": "0.5.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/traits",
+    "notices": [
+      "docs/third-party/rust-cipher-0.5.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-cipher-0.5.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "const-oid",
+    "version": "0.10.2",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/RustCrypto/formats",
+    "notices": [
+      "docs/third-party/rust-const-oid-0.10.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-const-oid-0.10.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "cpubits",
+    "version": "0.1.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/utils",
+    "notices": [
+      "docs/third-party/rust-cpubits-0.1.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-cpubits-0.1.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "cpufeatures",
+    "version": "0.3.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/utils",
+    "notices": [
+      "docs/third-party/rust-cpufeatures-0.3.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-cpufeatures-0.3.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "crossbeam-utils",
+    "version": "0.8.23",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/crossbeam-rs/crossbeam",
+    "notices": [
+      "docs/third-party/rust-crossbeam-utils-0.8.23-LICENSE-APACHE.txt",
+      "docs/third-party/rust-crossbeam-utils-0.8.23-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "crypto-common",
+    "version": "0.2.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/traits",
+    "notices": [
+      "docs/third-party/rust-crypto-common-0.2.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-crypto-common-0.2.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "darling",
+    "version": "0.20.11",
+    "license": "MIT",
+    "repository": "https://github.com/TedDriggs/darling",
+    "notices": [
+      "docs/third-party/rust-darling-0.20.11-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "darling_core",
+    "version": "0.20.11",
+    "license": "MIT",
+    "repository": "https://github.com/TedDriggs/darling",
+    "notices": [
+      "docs/third-party/rust-darling_core-0.20.11-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "darling_macro",
+    "version": "0.20.11",
+    "license": "MIT",
+    "repository": "https://github.com/TedDriggs/darling",
+    "notices": [
+      "docs/third-party/rust-darling_macro-0.20.11-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "dashmap",
+    "version": "6.2.1",
+    "license": "MIT",
+    "repository": "https://github.com/xacrimon/dashmap",
+    "notices": [
+      "docs/third-party/rust-dashmap-6.2.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "data-encoding",
+    "version": "2.11.1",
+    "license": "MIT",
+    "repository": "https://github.com/ia0/data-encoding",
+    "notices": [
+      "docs/third-party/rust-data-encoding-2.11.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "derive_builder",
+    "version": "0.20.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/colin-kiegel/rust-derive-builder",
+    "notices": [
+      "docs/third-party/rust-derive_builder-0.20.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-derive_builder-0.20.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "derive_builder_core",
+    "version": "0.20.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/colin-kiegel/rust-derive-builder",
+    "notices": [
+      "docs/third-party/rust-derive_builder_core-0.20.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-derive_builder_core-0.20.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "derive_builder_macro",
+    "version": "0.20.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/colin-kiegel/rust-derive-builder",
+    "notices": [
+      "docs/third-party/rust-derive_builder_macro-0.20.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-derive_builder_macro-0.20.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "derive_more",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/JelteF/derive_more",
+    "notices": [
+      "docs/third-party/rust-derive_more-2.1.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "derive_more-impl",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/JelteF/derive_more",
+    "notices": [
+      "docs/third-party/rust-derive_more-impl-2.1.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "digest",
+    "version": "0.11.3",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/traits",
+    "notices": [
+      "docs/third-party/rust-digest-0.11.3-LICENSE-APACHE.txt",
+      "docs/third-party/rust-digest-0.11.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "displaydoc",
+    "version": "0.2.7",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/yaahc/displaydoc",
+    "notices": [
+      "docs/third-party/rust-displaydoc-0.2.7-LICENSE-APACHE.txt",
+      "docs/third-party/rust-displaydoc-0.2.7-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "ecb",
+    "version": "0.2.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/block-modes",
+    "notices": [
+      "docs/third-party/rust-ecb-0.2.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-ecb-0.2.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "either",
+    "version": "1.19.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rayon-rs/either",
+    "notices": [
+      "docs/third-party/rust-either-1.19.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-either-1.19.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "email_address",
+    "version": "0.2.9",
+    "license": "MIT",
+    "repository": "https://github.com/johnstonskj/rust-email_address.git",
+    "notices": [
+      "docs/third-party/rust-email_address-0.2.9-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "enum_dispatch",
+    "version": "0.3.13",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://gitlab.com/antonok/enum_dispatch",
+    "notices": [
+      "docs/third-party/rust-enum_dispatch-0.3.13-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "enumflags2",
+    "version": "0.7.12",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/meithecatte/enumflags2",
+    "notices": [
+      "docs/third-party/rust-enumflags2-0.7.12-LICENSE-APACHE.txt",
+      "docs/third-party/rust-enumflags2-0.7.12-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "enumflags2_derive",
+    "version": "0.7.12",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/meithecatte/enumflags2",
+    "notices": [
+      "docs/third-party/rust-enumflags2_derive-0.7.12-LICENSE-APACHE.txt",
+      "docs/third-party/rust-enumflags2_derive-0.7.12-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "equivalent",
+    "version": "1.0.2",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/indexmap-rs/equivalent",
+    "notices": [
+      "docs/third-party/rust-equivalent-1.0.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-equivalent-1.0.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "fancy-regex",
+    "version": "0.19.2",
+    "license": "MIT",
+    "repository": "https://github.com/fancy-regex/fancy-regex",
+    "notices": [
+      "docs/third-party/rust-fancy-regex-0.19.2-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "fluent-uri",
+    "version": "0.4.1",
+    "license": "MIT",
+    "repository": "https://github.com/yescallop/fluent-uri-rs",
+    "notices": [
+      "docs/third-party/rust-fluent-uri-0.4.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "fnv",
+    "version": "1.0.7",
+    "license": "Apache-2.0 / MIT",
+    "repository": "https://github.com/servo/rust-fnv",
+    "notices": [
+      "docs/third-party/rust-fnv-1.0.7-LICENSE-APACHE.txt",
+      "docs/third-party/rust-fnv-1.0.7-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "foldhash",
+    "version": "0.2.0",
+    "license": "Zlib",
+    "repository": "https://github.com/orlp/foldhash",
+    "notices": [
+      "docs/third-party/rust-foldhash-0.2.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "fraction",
+    "version": "0.17.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dnsl48/fraction.git",
+    "notices": [
+      "docs/third-party/rust-fraction-0.17.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-fraction-0.17.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-channel",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-channel-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-channel-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-core",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-core-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-core-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-executor",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-executor-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-executor-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-io",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-io-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-io-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-macro",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-macro-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-macro-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-sink",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-sink-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-sink-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-task",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-task-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-task-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "futures-util",
+    "version": "0.3.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/futures-rs",
+    "notices": [
+      "docs/third-party/rust-futures-util-0.3.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-futures-util-0.3.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "getrandom",
+    "version": "0.2.17",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-random/getrandom",
+    "notices": [
+      "docs/third-party/rust-getrandom-0.2.17-LICENSE-APACHE.txt",
+      "docs/third-party/rust-getrandom-0.2.17-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "getrandom",
+    "version": "0.3.4",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-random/getrandom",
+    "notices": [
+      "docs/third-party/rust-getrandom-0.3.4-LICENSE-APACHE.txt",
+      "docs/third-party/rust-getrandom-0.3.4-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "getrandom",
+    "version": "0.4.3",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-random/getrandom",
+    "notices": [
+      "docs/third-party/rust-getrandom-0.4.3-LICENSE-APACHE.txt",
+      "docs/third-party/rust-getrandom-0.4.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "getset",
+    "version": "0.1.7",
+    "license": "MIT",
+    "repository": "https://github.com/jbaublitz/getset",
+    "notices": [
+      "docs/third-party/rust-getset-0.1.7-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "hashbrown",
+    "version": "0.14.5",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/hashbrown",
+    "notices": [
+      "docs/third-party/rust-hashbrown-0.14.5-LICENSE-APACHE.txt",
+      "docs/third-party/rust-hashbrown-0.14.5-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "hashbrown",
+    "version": "0.17.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/hashbrown",
+    "notices": [
+      "docs/third-party/rust-hashbrown-0.17.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-hashbrown-0.17.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "heck",
+    "version": "0.5.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/withoutboats/heck",
+    "notices": [
+      "docs/third-party/rust-heck-0.5.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-heck-0.5.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "http",
+    "version": "1.5.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/hyperium/http",
+    "notices": [
+      "docs/third-party/rust-http-1.5.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-http-1.5.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "httparse",
+    "version": "1.10.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/seanmonstar/httparse",
+    "notices": [
+      "docs/third-party/rust-httparse-1.10.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-httparse-1.10.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "hybrid-array",
+    "version": "0.4.15",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/hybrid-array",
+    "notices": [
+      "docs/third-party/rust-hybrid-array-0.4.15-LICENSE-APACHE.txt",
+      "docs/third-party/rust-hybrid-array-0.4.15-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "ident_case",
+    "version": "1.0.1",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/TedDriggs/ident_case",
+    "notices": [
+      "docs/third-party/rust-ident_case-1.0.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "indexmap",
+    "version": "2.14.2",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/indexmap-rs/indexmap",
+    "notices": [
+      "docs/third-party/rust-indexmap-2.14.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-indexmap-2.14.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "inout",
+    "version": "0.2.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/utils",
+    "notices": [
+      "docs/third-party/rust-inout-0.2.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-inout-0.2.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "instant",
+    "version": "0.1.13",
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/sebcrozet/instant",
+    "notices": [
+      "docs/third-party/rust-instant-0.1.13-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "itertools",
+    "version": "0.14.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-itertools/itertools",
+    "notices": [
+      "docs/third-party/rust-itertools-0.14.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-itertools-0.14.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "itoa",
+    "version": "1.0.18",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/itoa",
+    "notices": [
+      "docs/third-party/rust-itoa-1.0.18-LICENSE-APACHE.txt",
+      "docs/third-party/rust-itoa-1.0.18-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "js-sys",
+    "version": "0.3.106",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys",
+    "notices": [
+      "docs/third-party/rust-js-sys-0.3.106-LICENSE-APACHE.txt",
+      "docs/third-party/rust-js-sys-0.3.106-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "jsonschema",
+    "version": "0.56.0",
+    "license": "MIT",
+    "repository": "https://github.com/Stranger6667/jsonschema",
+    "notices": [
+      "docs/third-party/rust-jsonschema-0.56.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "jsonschema-regex",
+    "version": "0.56.0",
+    "license": "MIT",
+    "repository": "https://github.com/Stranger6667/jsonschema",
+    "notices": [
+      "docs/third-party/upstream-jsonschema-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "jsonschema-value",
+    "version": "0.56.0",
+    "license": "MIT",
+    "repository": "https://github.com/Stranger6667/jsonschema",
+    "notices": [
+      "docs/third-party/upstream-jsonschema-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "libc",
+    "version": "0.2.190",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/libc",
+    "notices": [
+      "docs/third-party/rust-libc-0.2.190-LICENSE-APACHE.txt",
+      "docs/third-party/rust-libc-0.2.190-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "lock_api",
+    "version": "0.4.14",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/Amanieu/parking_lot",
+    "notices": [
+      "docs/third-party/rust-lock_api-0.4.14-LICENSE-APACHE.txt",
+      "docs/third-party/rust-lock_api-0.4.14-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "log",
+    "version": "0.4.34",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/log",
+    "notices": [
+      "docs/third-party/rust-log-0.4.34-LICENSE-APACHE.txt",
+      "docs/third-party/rust-log-0.4.34-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "md-5",
+    "version": "0.11.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/hashes",
+    "notices": [
+      "docs/third-party/rust-md-5-0.11.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-md-5-0.11.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "memchr",
+    "version": "2.8.3",
+    "license": "Unlicense OR MIT",
+    "repository": "https://github.com/BurntSushi/memchr",
+    "notices": [
+      "docs/third-party/rust-memchr-2.8.3-COPYING.txt",
+      "docs/third-party/rust-memchr-2.8.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "micromap",
+    "version": "0.3.0",
+    "license": "MIT",
+    "repository": "https://github.com/yegor256/micromap",
+    "notices": [
+      "docs/third-party/rust-micromap-0.3.0-LICENSE.txt.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "mio",
+    "version": "1.2.4",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/mio",
+    "notices": [
+      "docs/third-party/rust-mio-1.2.4-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num",
+    "version": "0.4.3",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num",
+    "notices": [
+      "docs/third-party/rust-num-0.4.3-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-0.4.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-bigint",
+    "version": "0.4.8",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num-bigint",
+    "notices": [
+      "docs/third-party/rust-num-bigint-0.4.8-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-bigint-0.4.8-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-cmp",
+    "version": "0.1.0",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/lifthrasiir/num-cmp",
+    "notices": [
+      "docs/third-party/rust-num-cmp-0.1.0-LICENSE.txt.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-complex",
+    "version": "0.4.6",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num-complex",
+    "notices": [
+      "docs/third-party/rust-num-complex-0.4.6-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-complex-0.4.6-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-integer",
+    "version": "0.1.47",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num-integer",
+    "notices": [
+      "docs/third-party/rust-num-integer-0.1.47-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-integer-0.1.47-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-iter",
+    "version": "0.1.46",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num-iter",
+    "notices": [
+      "docs/third-party/rust-num-iter-0.1.46-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-iter-0.1.46-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-rational",
+    "version": "0.4.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num-rational",
+    "notices": [
+      "docs/third-party/rust-num-rational-0.4.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-rational-0.4.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "num-traits",
+    "version": "0.2.19",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-num/num-traits",
+    "notices": [
+      "docs/third-party/rust-num-traits-0.2.19-LICENSE-APACHE.txt",
+      "docs/third-party/rust-num-traits-0.2.19-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "once_cell",
+    "version": "1.21.4",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/matklad/once_cell",
+    "notices": [
+      "docs/third-party/rust-once_cell-1.21.4-LICENSE-APACHE.txt",
+      "docs/third-party/rust-once_cell-1.21.4-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "outref",
+    "version": "0.5.2",
+    "license": "MIT",
+    "repository": "https://github.com/Nugine/outref",
+    "notices": [
+      "docs/third-party/rust-outref-0.5.2-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "parking_lot",
+    "version": "0.12.5",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/Amanieu/parking_lot",
+    "notices": [
+      "docs/third-party/rust-parking_lot-0.12.5-LICENSE-APACHE.txt",
+      "docs/third-party/rust-parking_lot-0.12.5-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "parking_lot_core",
+    "version": "0.9.12",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/Amanieu/parking_lot",
+    "notices": [
+      "docs/third-party/rust-parking_lot_core-0.9.12-LICENSE-APACHE.txt",
+      "docs/third-party/rust-parking_lot_core-0.9.12-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "paste",
+    "version": "1.0.15",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/paste",
+    "notices": [
+      "docs/third-party/rust-paste-1.0.15-LICENSE-APACHE.txt",
+      "docs/third-party/rust-paste-1.0.15-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "percent-encoding",
+    "version": "2.3.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/servo/rust-url/",
+    "notices": [
+      "docs/third-party/rust-percent-encoding-2.3.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-percent-encoding-2.3.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "pin-project-lite",
+    "version": "0.2.17",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/taiki-e/pin-project-lite",
+    "notices": [
+      "docs/third-party/rust-pin-project-lite-0.2.17-LICENSE-APACHE.txt",
+      "docs/third-party/rust-pin-project-lite-0.2.17-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "proc-macro2",
+    "version": "1.0.107",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/proc-macro2",
+    "notices": [
+      "docs/third-party/rust-proc-macro2-1.0.107-LICENSE-APACHE.txt",
+      "docs/third-party/rust-proc-macro2-1.0.107-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "prost",
+    "version": "0.14.4",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/tokio-rs/prost",
+    "notices": [
+      "docs/third-party/rust-prost-0.14.4-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "prost-derive",
+    "version": "0.14.4",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/tokio-rs/prost",
+    "notices": [
+      "docs/third-party/rust-prost-derive-0.14.4-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "quote",
+    "version": "1.0.47",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/quote",
+    "notices": [
+      "docs/third-party/rust-quote-1.0.47-LICENSE-APACHE.txt",
+      "docs/third-party/rust-quote-1.0.47-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "r-efi",
+    "version": "5.3.0",
+    "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "notices": [
+      "docs/third-party/rust-r-efi-5.3.0-AUTHORS.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "r-efi",
+    "version": "6.0.0",
+    "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "https://github.com/r-efi/r-efi",
+    "notices": [
+      "docs/third-party/rust-r-efi-6.0.0-AUTHORS.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "rand",
+    "version": "0.10.3",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-random/rand",
+    "notices": [
+      "docs/third-party/rust-rand-0.10.3-LICENSE-APACHE.txt",
+      "docs/third-party/rust-rand-0.10.3-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "rand_core",
+    "version": "0.10.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-random/rand_core",
+    "notices": [
+      "docs/third-party/rust-rand_core-0.10.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-rand_core-0.10.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "redox_syscall",
+    "version": "0.5.18",
+    "license": "MIT",
+    "repository": "https://gitlab.redox-os.org/redox-os/syscall",
+    "notices": [
+      "docs/third-party/rust-redox_syscall-0.5.18-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "ref-cast",
+    "version": "1.0.27",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/ref-cast",
+    "notices": [
+      "docs/third-party/rust-ref-cast-1.0.27-LICENSE-APACHE.txt",
+      "docs/third-party/rust-ref-cast-1.0.27-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "ref-cast-impl",
+    "version": "1.0.27",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/ref-cast",
+    "notices": [
+      "docs/third-party/rust-ref-cast-impl-1.0.27-LICENSE-APACHE.txt",
+      "docs/third-party/rust-ref-cast-impl-1.0.27-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "referencing",
+    "version": "0.56.0",
+    "license": "MIT",
+    "repository": "https://github.com/Stranger6667/jsonschema",
+    "notices": [
+      "docs/third-party/rust-referencing-0.56.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "regex",
+    "version": "1.13.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/regex",
+    "notices": [
+      "docs/third-party/rust-regex-1.13.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-regex-1.13.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "regex-automata",
+    "version": "0.4.18",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/regex",
+    "notices": [
+      "docs/third-party/rust-regex-automata-0.4.18-LICENSE-APACHE.txt",
+      "docs/third-party/rust-regex-automata-0.4.18-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "regex-lite",
+    "version": "0.1.9",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/regex",
+    "notices": [
+      "docs/third-party/rust-regex-lite-0.1.9-LICENSE-APACHE.txt",
+      "docs/third-party/rust-regex-lite-0.1.9-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "regex-syntax",
+    "version": "0.8.11",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/regex",
+    "notices": [
+      "docs/third-party/rust-regex-syntax-0.8.11-LICENSE-APACHE.txt",
+      "docs/third-party/rust-regex-syntax-0.8.11-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "rustc_version",
+    "version": "0.4.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/djc/rustc-version-rs",
+    "notices": [
+      "docs/third-party/rust-rustc_version-0.4.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-rustc_version-0.4.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "rustversion",
+    "version": "1.0.23",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/rustversion",
+    "notices": [
+      "docs/third-party/rust-rustversion-1.0.23-LICENSE-APACHE.txt",
+      "docs/third-party/rust-rustversion-1.0.23-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "ryu",
+    "version": "1.0.23",
+    "license": "Apache-2.0 OR BSL-1.0",
+    "repository": "https://github.com/dtolnay/ryu",
+    "notices": [
+      "docs/third-party/rust-ryu-1.0.23-LICENSE-APACHE.txt",
+      "docs/third-party/rust-ryu-1.0.23-LICENSE-BOOST.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "scopeguard",
+    "version": "1.2.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/bluss/scopeguard",
+    "notices": [
+      "docs/third-party/rust-scopeguard-1.2.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-scopeguard-1.2.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "semver",
+    "version": "1.0.28",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/semver",
+    "notices": [
+      "docs/third-party/rust-semver-1.0.28-LICENSE-APACHE.txt",
+      "docs/third-party/rust-semver-1.0.28-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "serde",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "notices": [
+      "docs/third-party/rust-serde-1.0.229-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde-1.0.229-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "serde_core",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "notices": [
+      "docs/third-party/rust-serde_core-1.0.229-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_core-1.0.229-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "serde_derive",
+    "version": "1.0.229",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/serde",
+    "notices": [
+      "docs/third-party/rust-serde_derive-1.0.229-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_derive-1.0.229-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "serde_json",
+    "version": "1.0.151",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/serde-rs/json",
+    "notices": [
+      "docs/third-party/rust-serde_json-1.0.151-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_json-1.0.151-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "serde_repr",
+    "version": "0.1.21",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/serde-repr",
+    "notices": [
+      "docs/third-party/rust-serde_repr-0.1.21-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_repr-0.1.21-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "serde_yaml",
+    "version": "0.9.34+deprecated",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/serde-yaml",
+    "notices": [
+      "docs/third-party/rust-serde_yaml-0.9.34+deprecated-LICENSE-APACHE.txt",
+      "docs/third-party/rust-serde_yaml-0.9.34+deprecated-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "sha1",
+    "version": "0.11.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/hashes",
+    "notices": [
+      "docs/third-party/rust-sha1-0.11.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-sha1-0.11.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "sha2",
+    "version": "0.11.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/RustCrypto/hashes",
+    "notices": [
+      "docs/third-party/rust-sha2-0.11.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-sha2-0.11.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "slab",
+    "version": "0.4.12",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/slab",
+    "notices": [
+      "docs/third-party/rust-slab-0.4.12-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "smallvec",
+    "version": "1.16.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/servo/rust-smallvec",
+    "notices": [
+      "docs/third-party/rust-smallvec-1.16.2-LICENSE-APACHE.txt",
+      "docs/third-party/rust-smallvec-1.16.2-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "socket2",
+    "version": "0.6.5",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rust-lang/socket2",
+    "notices": [
+      "docs/third-party/rust-socket2-0.6.5-LICENSE-APACHE.txt",
+      "docs/third-party/rust-socket2-0.6.5-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "strsim",
+    "version": "0.11.1",
+    "license": "MIT",
+    "repository": "https://github.com/rapidfuzz/strsim-rs",
+    "notices": [
+      "docs/third-party/rust-strsim-0.11.1-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "strum",
+    "version": "0.28.0",
+    "license": "MIT",
+    "repository": "https://github.com/Peternator7/strum",
+    "notices": [
+      "docs/third-party/rust-strum-0.28.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "strum_macros",
+    "version": "0.28.0",
+    "license": "MIT",
+    "repository": "https://github.com/Peternator7/strum",
+    "notices": [
+      "docs/third-party/rust-strum_macros-0.28.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "syn",
+    "version": "2.0.119",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/syn",
+    "notices": [
+      "docs/third-party/rust-syn-2.0.119-LICENSE-APACHE.txt",
+      "docs/third-party/rust-syn-2.0.119-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "syn",
+    "version": "3.0.6",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/syn",
+    "notices": [
+      "docs/third-party/rust-syn-3.0.6-LICENSE-APACHE.txt",
+      "docs/third-party/rust-syn-3.0.6-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "thiserror",
+    "version": "2.0.21",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/thiserror",
+    "notices": [
+      "docs/third-party/rust-thiserror-2.0.21-LICENSE-APACHE.txt",
+      "docs/third-party/rust-thiserror-2.0.21-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "thiserror-impl",
+    "version": "2.0.21",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/dtolnay/thiserror",
+    "notices": [
+      "docs/third-party/rust-thiserror-impl-2.0.21-LICENSE-APACHE.txt",
+      "docs/third-party/rust-thiserror-impl-2.0.21-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tokio",
+    "version": "1.53.2",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tokio",
+    "notices": [
+      "docs/third-party/rust-tokio-1.53.2-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tokio-macros",
+    "version": "2.7.2",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tokio",
+    "notices": [
+      "docs/third-party/rust-tokio-macros-2.7.2-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tokio-stream",
+    "version": "0.1.19",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tokio",
+    "notices": [
+      "docs/third-party/rust-tokio-stream-0.1.19-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tokio-tungstenite",
+    "version": "0.30.0",
+    "license": "MIT",
+    "repository": "https://github.com/snapview/tokio-tungstenite",
+    "notices": [
+      "docs/third-party/rust-tokio-tungstenite-0.30.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tokio-util",
+    "version": "0.7.19",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tokio",
+    "notices": [
+      "docs/third-party/rust-tokio-util-0.7.19-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tracing",
+    "version": "0.1.44",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tracing",
+    "notices": [
+      "docs/third-party/rust-tracing-0.1.44-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tracing-attributes",
+    "version": "0.1.31",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tracing",
+    "notices": [
+      "docs/third-party/rust-tracing-attributes-0.1.31-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tracing-core",
+    "version": "0.1.36",
+    "license": "MIT",
+    "repository": "https://github.com/tokio-rs/tracing",
+    "notices": [
+      "docs/third-party/rust-tracing-core-0.1.36-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "tungstenite",
+    "version": "0.30.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/snapview/tungstenite-rs",
+    "notices": [
+      "docs/third-party/rust-tungstenite-0.30.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-tungstenite-0.30.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "typenum",
+    "version": "1.20.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/paholg/typenum",
+    "notices": [
+      "docs/third-party/rust-typenum-1.20.1-LICENSE.txt",
+      "docs/third-party/rust-typenum-1.20.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-typenum-1.20.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "unicode-general-category",
+    "version": "1.1.0",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/yeslogic/unicode-general-category",
+    "notices": [
+      "docs/third-party/rust-unicode-general-category-1.1.0-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "unicode-ident",
+    "version": "1.0.26",
+    "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+    "repository": "https://github.com/dtolnay/unicode-ident",
+    "notices": [
+      "docs/third-party/rust-unicode-ident-1.0.26-LICENSE-APACHE.txt",
+      "docs/third-party/rust-unicode-ident-1.0.26-LICENSE-MIT.txt",
+      "docs/third-party/rust-unicode-ident-1.0.26-LICENSE-UNICODE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "unsafe-libyaml",
+    "version": "0.2.11",
+    "license": "MIT",
+    "repository": "https://github.com/dtolnay/unsafe-libyaml",
+    "notices": [
+      "docs/third-party/rust-unsafe-libyaml-0.2.11-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "uuid",
+    "version": "1.27.0",
+    "license": "Apache-2.0 OR MIT",
+    "repository": "https://github.com/uuid-rs/uuid",
+    "notices": [
+      "docs/third-party/rust-uuid-1.27.0-LICENSE-APACHE.txt",
+      "docs/third-party/rust-uuid-1.27.0-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "uuid-simd",
+    "version": "0.8.0",
+    "license": "MIT",
+    "repository": "https://github.com/Nugine/simd",
+    "notices": [
+      "docs/third-party/upstream-simd-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "version_check",
+    "version": "0.9.5",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/SergioBenitez/version_check",
+    "notices": [
+      "docs/third-party/rust-version_check-0.9.5-LICENSE-APACHE.txt",
+      "docs/third-party/rust-version_check-0.9.5-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "vsimd",
+    "version": "0.8.0",
+    "license": "MIT",
+    "repository": "https://github.com/Nugine/simd",
+    "notices": [
+      "docs/third-party/upstream-simd-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wasi",
+    "version": "0.11.1+wasi-snapshot-preview1",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/bytecodealliance/wasi",
+    "notices": [
+      "docs/third-party/rust-wasi-0.11.1+wasi-snapshot-preview1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wasi-0.11.1+wasi-snapshot-preview1-LICENSE-Apache-2.0_WITH_LLVM-exception.txt",
+      "docs/third-party/rust-wasi-0.11.1+wasi-snapshot-preview1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wasip2",
+    "version": "1.0.4+wasi-0.2.12",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/bytecodealliance/wasi-rs",
+    "notices": [
+      "docs/third-party/rust-wasip2-1.0.4+wasi-0.2.12-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wasip2-1.0.4+wasi-0.2.12-LICENSE-Apache-2.0_WITH_LLVM-exception.txt",
+      "docs/third-party/rust-wasip2-1.0.4+wasi-0.2.12-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wasm-bindgen",
+    "version": "0.2.129",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+    "notices": [
+      "docs/third-party/rust-wasm-bindgen-0.2.129-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wasm-bindgen-0.2.129-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wasm-bindgen-macro",
+    "version": "0.2.129",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro",
+    "notices": [
+      "docs/third-party/rust-wasm-bindgen-macro-0.2.129-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wasm-bindgen-macro-0.2.129-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wasm-bindgen-macro-support",
+    "version": "0.2.129",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/main/crates/macro-support",
+    "notices": [
+      "docs/third-party/rust-wasm-bindgen-macro-support-0.2.129-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wasm-bindgen-macro-support-0.2.129-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wasm-bindgen-shared",
+    "version": "0.2.129",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared",
+    "notices": [
+      "docs/third-party/rust-wasm-bindgen-shared-0.2.129-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wasm-bindgen-shared-0.2.129-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "windows-link",
+    "version": "0.2.1",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/microsoft/windows-rs",
+    "notices": [
+      "docs/third-party/rust-windows-link-0.2.1-license-apache-2.0.txt",
+      "docs/third-party/rust-windows-link-0.2.1-license-mit.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "windows-sys",
+    "version": "0.61.2",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/microsoft/windows-rs",
+    "notices": [
+      "docs/third-party/rust-windows-sys-0.61.2-license-apache-2.0.txt",
+      "docs/third-party/rust-windows-sys-0.61.2-license-mit.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "wit-bindgen",
+    "version": "0.57.1",
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/bytecodealliance/wit-bindgen",
+    "notices": [
+      "docs/third-party/rust-wit-bindgen-0.57.1-LICENSE-APACHE.txt",
+      "docs/third-party/rust-wit-bindgen-0.57.1-LICENSE-Apache-2.0_WITH_LLVM-exception.txt",
+      "docs/third-party/rust-wit-bindgen-0.57.1-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "zerocopy",
+    "version": "0.8.61",
+    "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/google/zerocopy",
+    "notices": [
+      "docs/third-party/rust-zerocopy-0.8.61-LICENSE-APACHE.txt",
+      "docs/third-party/rust-zerocopy-0.8.61-LICENSE-BSD.txt",
+      "docs/third-party/rust-zerocopy-0.8.61-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "zerocopy-derive",
+    "version": "0.8.61",
+    "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+    "repository": "https://github.com/google/zerocopy",
+    "notices": [
+      "docs/third-party/rust-zerocopy-derive-0.8.61-LICENSE-APACHE.txt",
+      "docs/third-party/rust-zerocopy-derive-0.8.61-LICENSE-BSD.txt",
+      "docs/third-party/rust-zerocopy-derive-0.8.61-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Rust",
+    "scope": "protocol-test-only",
+    "name": "zmij",
+    "version": "1.0.23",
+    "license": "MIT",
+    "repository": "https://github.com/dtolnay/zmij",
+    "notices": [
+      "docs/third-party/rust-zmij-1.0.23-LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "archive",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-archive-LICENSE.txt",
+      "docs/third-party/dart-archive-LICENSE-other.md.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "args",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-args-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "async",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-async-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "boolean_selector",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-boolean_selector-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "camera",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-camera-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "camera_android_camerax",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-camera_android_camerax-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "camera_avfoundation",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-camera_avfoundation-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "camera_platform_interface",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-camera_platform_interface-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "camera_web",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-camera_web-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "camera_windows",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-camera_windows-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "characters",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-characters-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "clock",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-clock-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "code_assets",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-code_assets-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "collection",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-collection-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "cross_file",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-cross_file-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "crypto",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-crypto-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "cupertino_icons",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-cupertino_icons-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "fake_async",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-fake_async-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "ffi",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-ffi-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_android",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_android-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_ios",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_ios-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_linux",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_linux-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_macos",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_macos-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_platform_interface",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_platform_interface-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_web",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_web-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "file_selector_windows",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-file_selector_windows-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "flutter",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "flutter_driver",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/Flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "flutter_lints",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-flutter_lints-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "flutter_plugin_android_lifecycle",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-flutter_plugin_android_lifecycle-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "flutter_test",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/Flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "flutter_web_plugins",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/Flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "fuchsia_remote_debug_protocol",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/Flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "hooks",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-hooks-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "http",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-http-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "http_parser",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-http_parser-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "image",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-image-LICENSE.txt",
+      "docs/third-party/dart-image-LICENSE-other.md.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "integration_test",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/Flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "jni",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-jni-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "jni_flutter",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-jni_flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "jni_util",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-jni_util-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "leak_tracker",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-leak_tracker-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "leak_tracker_flutter_testing",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-leak_tracker_flutter_testing-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "leak_tracker_testing",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-leak_tracker_testing-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "lints",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-lints-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "logging",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-logging-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "matcher",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-matcher-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "material_color_utilities",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-material_color_utilities-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "meta",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-meta-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "objective_c",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-objective_c-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "package_config",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-package_config-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path_provider",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path_provider-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path_provider_android",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path_provider_android-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path_provider_foundation",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path_provider_foundation-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path_provider_linux",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path_provider_linux-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path_provider_platform_interface",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path_provider_platform_interface-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "path_provider_windows",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-path_provider_windows-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "platform",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-platform-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "plugin_platform_interface",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-plugin_platform_interface-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "posix",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-posix-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "process",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-process-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "pub_semver",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-pub_semver-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "qr",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-qr-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "qr_flutter",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-qr_flutter-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_android",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_android-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_ios",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_ios-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_linux",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_linux-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_macos",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_macos-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_platform_interface",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_platform_interface-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_use",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_use-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_web",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_web-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "record_windows",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-record_windows-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "sky_engine",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-sky_engine-license.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "source_span",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-source_span-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "stack_trace",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-stack_trace-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "stream_channel",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-stream_channel-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "stream_transform",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-stream_transform-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "string_scanner",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-string_scanner-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "sync_http",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-sync_http-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "term_glyph",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-term_glyph-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "test_api",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-test_api-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "typed_data",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-typed_data-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_android",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_android-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_ios",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_ios-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_linux",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_linux-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_macos",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_macos-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_platform_interface",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_platform_interface-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_web",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_web-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "url_launcher_windows",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-url_launcher_windows-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "vector_math",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-vector_math-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "vm_service",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-vm_service-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "web",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-web-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "webdriver",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-webdriver-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "xdg_directories",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-xdg_directories-LICENSE.txt"
+    ]
+  },
+  {
+    "ecosystem": "Dart",
+    "scope": "app-and-development-tools",
+    "name": "yaml",
+    "version_source": "app/pubspec.lock",
+    "notices": [
+      "docs/third-party/dart-yaml-LICENSE.txt"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Haptics · 实时语音验证</title><link rel="stylesheet" href="/style.css"><script type="module" src="/probe.js"></script></head>
+<body><main>
+<header><span class="tag">STAGE A · 仅模拟设备</span><h1>实时语音验证</h1><p>百炼 Qwen Omni → 中文对话 → 工具回执 → Rust 模拟波形</p></header>
+<section><h2>1 · 连接语音伙伴</h2><p>密钥仅在本机服务内存保留最多 20 分钟，不写入磁盘。普通断开可直接重连；点“结束并清除密钥”立即清除。当前模型 <code>qwen3.8-omni-flash-realtime</code>。</p>
+<label for="host">北京业务空间 API Host</label><input id="host" autocomplete="off" placeholder="粘贴 API Host 域名，以 .cn-beijing.maas.aliyuncs.com 结尾">
+<label for="key">API Key（请私下粘贴）</label><input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="首次连接时填写，不保存到磁盘"><p id="credentialState">尚未配置密钥</p>
+<label for="style">对话风格（连接前选择）</label><select id="style"><option value="playful">俏皮亲近 · 小岚</option><option value="gentle">温柔陪伴 · 小岚</option><option value="technical">技术对照</option></select><p>可以自然聊天、轻松打趣。声音仍使用 Tina；风格指令的实际效果需要试听。</p>
+<div class="buttons"><button id="connect" disabled>连接百炼</button><button id="disconnect" class="secondary">断开语音</button><button id="forget" class="secondary">结束并清除密钥</button></div><p id="status" role="status">正在初始化本机页面…</p></section>
+<section><h2>2 · 开启实时语音</h2><p>点击后才采集麦克风并上传到百炼；本机不保存原始音频。供应商按其服务规则处理数据。首轮请戴耳机，每轮最多三分钟。切换页面只暂停采集、播报和模拟输出，返回后手动恢复；语音连接保留至本轮结束。</p>
+<div class="buttons"><button id="mic" disabled>开启麦克风并上传</button><button id="interrupt" class="secondary" disabled>打断播报</button></div><p id="capture">麦克风关闭 · 未上传</p><p id="audioState">扬声器空闲</p></section>
+<section><h2>3 · 验证波形控制</h2><p>本页无法连接真实设备。点击授权后，可说“强一点”“弱一点”“换成脉冲”“停止”。响度和非语言声音不会直接触发增强。</p>
+<div class="buttons"><button id="grant" disabled>授权模拟波形 30 秒</button><button id="stop" class="danger">立即停止模拟输出</button></div>
+<div class="metrics"><div>相对目标强度<strong id="gain">—</strong></div><div>授权剩余<strong id="lease">0 秒</strong></div><div>模拟状态<strong id="phase">未授权</strong></div></div>
+<canvas id="wave" width="1000" height="120" aria-label="实际 Rust 模拟输出曲线"></canvas><p id="receipt">尚无模型动作回执</p></section>
+<section><h2>本轮转写与回复</h2><p>只显示在此页面内，最多 40 条；导出报告不包含正文。</p><ol id="transcripts" aria-live="polite"></ol></section>
+<section><h2>验证记录</h2><p>报告只记录连接、语音片段与工具调用计数、接收时延。普通对话通过不代表成人场景适用，收到音频也不代表播放质量已验收。</p><button id="report" class="secondary">保存不含正文的测试报告</button><p id="reportStatus"></p></section>
+</main></body></html>

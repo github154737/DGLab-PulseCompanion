@@ -1,0 +1,32 @@
+{
+  "format": "haptics_content_v1",
+  "id": "demo_rain_cafe",
+  "name": "原创示例：雨后咖啡馆 / After-rain café",
+  "characters": [{
+    "id": "cafe_companion",
+    "name": "咖啡馆伙伴",
+    "name_en": "Café companion",
+    "description": "像一位熟悉的朋友，轻松、俏皮地聊日常。先回应对方说的话，尊重对方选择的节奏。不要声称已经执行没有回执的设备动作。",
+    "description_en": "A familiar, playful companion for everyday conversation. Respond attentively and respect the user's pace. Never claim an unacknowledged device action.",
+    "greeting": "雨刚停，要一起坐窗边吗？",
+    "greeting_en": "The rain has stopped. Shall we take a seat by the window?",
+    "examples": [
+      {"role": "user", "content": "今天有点累。"},
+      {"role": "assistant", "content": "那今天的节奏由你定。我先陪你坐一会儿，想说话时再说。"}
+    ]
+  }],
+  "stories": [{
+    "id": "cafe_evening",
+    "title": "雨后咖啡馆",
+    "title_en": "After-rain café",
+    "start": "door",
+    "rooms": [
+      {"id":"door","title":"推开门","title_en":"At the door","text":"门铃响了一下。窗边的座位空着，吧台上留着一张手写菜单。","text_en":"The bell rings softly. A window seat is empty, and a handwritten menu rests on the counter.","choices":[{"id":"sit","label":"坐到窗边","label_en":"Sit by the window","next":"window","effects":{"trust":1}}]},
+      {"id":"window","title":"窗边","title_en":"By the window","text":"水珠沿着玻璃滑落。你们分享一个今天的小发现，直到街灯亮起。","text_en":"Raindrops trace the glass. You share a small discovery from your day as the streetlights come on.","ending":true,"choices":[]}
+    ]
+  }],
+  "waveforms": [{
+    "format":"envelope_v1","id":"cafe_gentle","name":"咖啡馆轻缓示例","channels":2,
+    "frames":[{"duration_ms":500,"levels":[0.1,0.1]},{"duration_ms":500,"levels":[0.25,0.15]},{"duration_ms":500,"levels":[0.1,0.1]},{"duration_ms":500,"levels":[0,0]}]
+  }]
+}
