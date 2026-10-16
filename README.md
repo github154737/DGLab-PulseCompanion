@@ -168,8 +168,6 @@ python scripts/export-connection.py
 
 感谢 Flutter、Rust、DG-LAB 公开协议，以及所有让这个小项目长大的开源工具。
 
-README 的章节组织参考了 [openclaw-plugin-dg-lab](https://github.com/FengYing1314/openclaw-plugin-dg-lab)。两者是独立项目；这里的功能说明与安装步骤对应 PulseCompanion 自己的实现。
-
-自有代码采用 [MIT](LICENSE)，第三方内容保留各自许可，详见 [NOTICE](NOTICE.md) 与[来源记录](docs/source-provenance-review.md)。顶部猫娘插画为本项目 AI 生成插画，设备与屏幕是示意绘制。
+自有代码采用 [MIT](LICENSE)，第三方内容保留各自许可，详见 [NOTICE](NOTICE.md) 与[来源记录](docs/source-provenance-review.md)。
 
 <p align="center">如果这个小伙伴让你觉得有点可爱，欢迎留下一颗 ⭐<br />我们慢慢把她养大。</p>
