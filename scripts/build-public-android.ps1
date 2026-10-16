@@ -1,6 +1,8 @@
 param([switch]$Offline, [switch]$CheckOnly, [string]$ConfigPath)
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot\env.ps1"
+# Keep generated Dart source paths out of a personal Windows profile.
+$StagedApp = Join-Path ([Environment]::GetFolderPath('CommonApplicationData')) 'AIHaptics/public-build/app'
 . "$PSScriptRoot\build-profile.ps1"
 if (-not $ConfigPath) { $ConfigPath = Join-Path $ProjectRoot 'config/public.json' }
 $config = Read-DefineMap $ConfigPath

@@ -65,3 +65,5 @@ id_ed25519*
 # Reviewed README artwork only; private screenshots stay excluded.
 !/docs/images/
 !/docs/images/pulse-companion-catgirl.png
+
+!/docs/images/app-actual-chat.jpg

@@ -31,6 +31,8 @@ python scripts/check-source-release.py --staged --history
 
 签名密钥和随机口令保存在仓库外 `.aihaptics/release-signing/`，目录限制为当前 Windows 用户和 SYSTEM。妥善备份整个目录；不能丢失后直接换钥升级已安装的应用。也可通过 AIHAPTICS_SIGNING_PROPERTIES 指向已有外部 properties（storeFile/storePassword/keyAlias/keyPassword），默认生成过程不会覆盖现有文件。
 
+公开 Android 构建暂存到 `%ProgramData%/AIHaptics/public-build/app`，并重映射 Rust 源路径，避免把个人用户目录写入 APK。该目录需要当前用户可写。
+
 公开版包名为 `dev.aihaptics.haptics_lab.community`，可与内测版共存。公开 release 缺少签名就终止，不回退调试签名。公开资源包不含私人波形合集。`-CheckOnly` 只验证配置，不验证签名、Gradle 编译或安装效果。
 
 公开 Windows 开发构建可运行 `scripts/build-windows.ps1 -Release`；Windows 安装器签名与公证不在本轮实现范围。Android 是当前分发目标。

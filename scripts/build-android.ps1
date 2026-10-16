@@ -2,11 +2,13 @@ param([switch]$Release, [switch]$Offline, [switch]$Detailed, [string]$BetaServic
 . "$PSScriptRoot\env.ps1"
 . "$PSScriptRoot\build-profile.ps1"
 $privateDefineFile = $null
+$previousEncodedRustFlags = $env:CARGO_ENCODED_RUSTFLAGS
 if ($AppDefines -and ($VenicePersonal -or $VeniceRelayDefines -or $BetaServiceUrl -or $Detailed)) { throw 'Cannot mix public profile and private/legacy build options.' }
 $profileConfig = $null
 if ($AppDefines) {
     $profileConfig = Read-DefineMap $AppDefines
     Assert-AppBuildDefines $profileConfig 'public'
+    $StagedApp = Join-Path ([Environment]::GetFolderPath('CommonApplicationData')) 'AIHaptics/public-build/app'
 } elseif ($VeniceRelayDefines -or $VenicePersonal) {
     $profileConfig = Get-PilotBuildDefines -RelayPath $VeniceRelayDefines -LoginPath $PilotLoginDefines
 }
@@ -30,6 +32,15 @@ try {
     $env:CARGO_TARGET_AARCH64_LINUX_ANDROID_RUSTFLAGS = '-C link-arg=--target=aarch64-linux-android24 -C link-arg=-Wl,-z,max-page-size=16384'
     $env:CARGO_TARGET_X86_64_LINUX_ANDROID_RUSTFLAGS = '-C link-arg=--target=x86_64-linux-android24 -C link-arg=-Wl,-z,max-page-size=16384'
     foreach ($entry in @(@('aarch64-linux-android','arm64-v8a'),@('x86_64-linux-android','x86_64'))) {
+        if ($AppDefines) {
+            # Unit-separated flags preserve spaces in Windows profile paths.
+            $target = if ($entry[0] -eq 'aarch64-linux-android') { 'aarch64-linux-android24' } else { 'x86_64-linux-android24' }
+            $env:CARGO_ENCODED_RUSTFLAGS = @(
+                '-C', "link-arg=--target=$target", '-C', 'link-arg=-Wl,-z,max-page-size=16384',
+                "--remap-path-prefix=$env:USERPROFILE=/build/user",
+                "--remap-path-prefix=$($env:USERPROFILE.Replace('\','/'))=/build/user"
+            ) -join [char]31
+        }
         $cargoArgs = @('build','--locked','--jobs','2','-p','haptics_core','--target',$entry[0])
         if ($Release) { $cargoArgs += '--release' }
         Invoke-Checked cargo $cargoArgs
@@ -89,5 +100,6 @@ try {
     } finally { Pop-Location }
 } finally {
     Pop-Location
+    $env:CARGO_ENCODED_RUSTFLAGS = $previousEncodedRustFlags
     if ($privateDefineFile) { Remove-Item -LiteralPath $privateDefineFile -Force }
 }

@@ -44,13 +44,23 @@
 | 🔗 郊狼配对 | 从 APP 打开 DG-LAB 配对，也可以通过二维码连接 |
 | 🧾 看得见的回执 | 这轮调了什么、有没有执行，聊天里都有记录 |
 
+## 🐾 APP 实际页面
+
+下面是 APP 实际运行截图，展示聊天、双通道强度、波形和执行回执；截图中的对话仅作界面展示。
+
+<p align="center">
+  <img src="docs/images/app-actual-chat.jpg" width="360" alt="APP 实际页面：聊天、波形、A/B 通道强度及执行回执" />
+</p>
+
 <a id="install"></a>
 
 ## 📱 先把小伙伴装进手机
 
-> **公开 APK 还在准备中。** 目前这里发布的是源码，[Releases 发布页](https://github.com/github154737/DGLab-PulseCompanion/releases)暂时没有安装包。准备好后，公开 APK 会放在那里。
->
-> 已经受邀参加内测的小伙伴，继续使用维护者发给你的 APK 和内测码即可。想现在自己动手，可以跳到下面的[源码构建](#build)。
+**公开测试版已经可以下载啦。** 🐾
+
+👉 [下载 Android APK](https://github.com/github154737/DGLab-PulseCompanion/releases/latest/download/AIHaptics-0.14.5-public-android.apk) · [查看版本说明与校验值](https://github.com/github154737/DGLab-PulseCompanion/releases/latest)
+
+公开版无需内测码，首次打开需导入自己的服务连接文件或填写 Venice API Key，也可以先离线浏览。已受邀参加内测的小伙伴仍可继续使用原来的 APK。
 
 ### 拿到 APK 后，这样安装就好
 

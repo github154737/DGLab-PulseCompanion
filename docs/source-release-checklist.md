@@ -32,4 +32,4 @@ python scripts/verify-public-apk.py artifacts/实际公开包名.apk --expected-
 7. Android 真机验证安装、配置导入、退出清除、语音权限、停止/断线/重连及旧版升级；分别记录 Wi-Fi/移动网络。桌面 widget 测试不能代替真机。
 8. GitHub 创建后开启 Private vulnerability reporting、分支保护和必需检查，核对 CI 实际结果。发布版本、SHA-256、已知限制和数据说明。未经明确请求不自动推送/创建 release。
 
-本轮没有打包，所以最终 APK 扫描、全新机器完整 Android 构建及真机安装仍是发行前验证项；本地源码检查通过不等于它们已经通过。
+每个发行版本分别记录 APK 扫描、构建环境和安装验证结果；未完成的全新机器或真机检查须在该版本说明中明确列出。本地源码检查通过不等于它们已经通过。
